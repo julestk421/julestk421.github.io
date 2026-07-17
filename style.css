@@ -32,10 +32,6 @@ a{color:inherit}
 .project-item h2{margin:0 0 6px;font-size:1.15rem}
 .site-footer{padding-top:20px;text-align:center;color:rgba(244,240,228,.86);font-size:.82rem}
 .site-footer a{color:var(--paper)}
-@media(min-width:581px){
-body:not(.home-page){display:flex;align-items:center;align-items:safe center;justify-content:center;padding:28px 0}
-body:not(.home-page) .site-shell{margin:0 auto}
-}
 @media(max-width:580px){
 .home-page{display:block;padding:0}
 .site-shell{width:min(100% - 18px,var(--max));margin:12px auto;padding:12px;border-width:7px}
