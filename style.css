@@ -34,8 +34,8 @@ a{color:inherit}
 .site-footer a{color:var(--paper)}
 @media(max-width:580px){
 .home-page{display:block;padding:0}
-.site-shell{width:min(100% - 18px,var(--max));margin:12px auto;padding:20px 12px 12px;border-width:7px}
-.home-page .site-shell{margin:12px auto}
+.site-shell{width:min(100% - 18px,var(--max));margin:0 auto 12px;padding:16px 12px 12px;border-width:7px}
+.home-page .site-shell{margin:0 auto 12px}
 .site-header{grid-template-columns:66px 1fr;gap:12px;padding:15px 14px;margin-bottom:18px}
 .logo-link{width:62px;height:62px;margin:0}
 .wordmark{font-size:clamp(1.65rem,8vw,2.35rem)}
